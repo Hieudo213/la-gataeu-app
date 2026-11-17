@@ -17,6 +17,7 @@ function App() {
         </div>
         <div>
           <h1>Get started Hieu do</h1>
+          <h2>Ứng dụng đang trong quá trình xây dựng môi trường Production</h2>
           <p>
             Edit <code>src/App.tsx</code> and save to test <code>HMR</code>
           </p>
