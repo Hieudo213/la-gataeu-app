@@ -183,3 +183,55 @@
     border-right-color: var(--border);
   }
 }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Poppins:wght@300;400;500;600&display=swap');
+@theme inline {
+  --color-background: #fdf8f2;
+  --color-foreground: #2c1810;
+  --color-card: #fff9f4;
+  --color-card-foreground: #2c1810;
+  --color-primary: #c4745a;
+  --color-primary-foreground: #fff9f4;
+  --color-secondary: #f5e6d8;
+  --color-secondary-foreground: #5c3d2e;
+  --color-muted: #f0e4d7;
+  --color-muted-foreground: #8a6252;
+  --color-accent: #e8b4a0;
+  --color-accent-foreground: #2c1810;
+  --color-border: #e5d3c4;
+  --color-ring: #c4745a;
+  --radius: 0.75rem;
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body: 'Poppins', system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-muted);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-accent);
+  border-radius: 3px;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
